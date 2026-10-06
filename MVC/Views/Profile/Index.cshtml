@@ -1,0 +1,29 @@
+<!---Profile--->
+@model MVC.Models.ProfileModel
+
+@{
+    ViewData["Title"] = "Profile Page";
+}
+
+<h1>Profile</h1>
+
+<div class = "grid-container">
+    <img src = "~/images/puli.jpg" alt = "ProfilePic" class = "profile">
+    <div class = "left">
+        <p class = "label">Name</p>
+        <p class = "label">School</p>
+        <p class = "label">Program</p>
+        <p class = "label">Address</p>
+        <p class = "label">Skills</p>
+    </div>
+    <div class = "right">
+        <p class = "value">@Model.Name</p>
+        <p class = "value">@Model.School</p>
+        <p class = "value">@Model.Program</p>
+        <p class = "value">@Model.Address</p>
+        <ul>
+            @foreach (var Skills in Model.Skills)
+            {<li class = "value">@Skills</li>}
+        </ul>
+    </div>
+</div>
