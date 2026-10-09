@@ -10,5 +10,3 @@ This repository is a requirement for **COMP 019 - Application Development and Em
 | **Jessielyn D. Puli** | [@jessielynpuli](https://github.com/jessielynpuli) | jessielyn.duhacc@gmail.com |
 
 **Program & Year:** BSCS 3-2
-
----
